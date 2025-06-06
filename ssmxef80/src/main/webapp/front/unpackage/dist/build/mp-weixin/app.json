@@ -1,0 +1,89 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/chengke/list",
+    "pages/chengke/add-or-update",
+    "pages/chengke/detail",
+    "pages/siji/list",
+    "pages/siji/add-or-update",
+    "pages/siji/detail",
+    "pages/chepiaoxinxi/list",
+    "pages/chepiaoxinxi/add-or-update",
+    "pages/chepiaoxinxi/detail",
+    "pages/dingdanxinxi/list",
+    "pages/dingdanxinxi/add-or-update",
+    "pages/dingdanxinxi/detail",
+    "pages/tuipiaoxinxi/list",
+    "pages/tuipiaoxinxi/add-or-update",
+    "pages/tuipiaoxinxi/detail",
+    "pages/shiwuzhaoling/list",
+    "pages/shiwuzhaoling/add-or-update",
+    "pages/shiwuzhaoling/detail",
+    "pages/kechedengji/list",
+    "pages/kechedengji/add-or-update",
+    "pages/kechedengji/detail",
+    "pages/chengkedengji/list",
+    "pages/chengkedengji/add-or-update",
+    "pages/chengkedengji/detail",
+    "pages/tongzhixinxi/list",
+    "pages/tongzhixinxi/add-or-update",
+    "pages/tongzhixinxi/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/discussshiwuzhaoling/list",
+    "pages/discussshiwuzhaoling/add-or-update",
+    "pages/discussshiwuzhaoling/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "客运自助售票小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#3AEBF1",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/chepiaoxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "车票信息"
+      },
+      {
+        "pagePath": "pages/shiwuzhaoling/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "失物招领"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
